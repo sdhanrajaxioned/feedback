@@ -124,14 +124,66 @@ li {
 /*=================================
   main styling starts here
 =================================*/
+main {margin-top: 150px;}
 
+.review-container {
+  width: 373px;
+  height: 284px;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
 
+h2 { padding-top: 30px; }
 
+.reviews {
+  display: flex;
+  justify-content: center;
+}
 
+.reviews li p {padding-top: 10px;}
 
+.reviews li { 
+  padding: 10px;
+  margin-top: 30px;
+  flex-basis: 100%;
+}
 
+img { width: 40%; }
+.reviews li:hover{ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
+.send-review {
+  margin-top: 33px;
+  padding: 10px 5%;
+  border: none;
+  border-radius: 5px;
+  background-color: #302D2B;
+  color: #FFF;
+  border: 1px solid #302D2B;
+}
 
+.send-review:hover {
+  color: #302D2B;
+  background:#FFF;
+  transition: all .5s ease-in;
+}
+
+.fa-heart {
+  padding-top: 40px;
+  color: #FF0000;
+  font-size: 35px;
+}
+
+.active { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+.thanks {
+  padding-bottom: 35px;
+  font-weight: 700;
+}
+
+.feedback { padding-bottom: 35px; }
+.message { padding-top: 35px; }
 /*=================================
   main styling ends here
 =================================*/
